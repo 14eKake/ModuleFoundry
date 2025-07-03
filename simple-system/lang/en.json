@@ -1,5 +1,13 @@
 {
   "SIMPLE": {
     "GREETING": "Hello from Simple System"
+  },
+  "WARGAME": {
+    "MOVE": "Movement",
+    "ATTACK": "Attack",
+    "DEFENSE": "Defense",
+    "INFANTRY": "Infantry",
+    "CAVALRY": "Cavalry",
+    "ARTILLERY": "Artillery"
   }
 }
