@@ -21,5 +21,11 @@ Hooks.once('init', () => {
   }
 
   Actors.registerSheet('wargame', WargameActorSheet, { makeDefault: true });
+
+  Hooks.on('preCreateActor', (actor, data, options, userId) => {
+    if (!data.type) {
+      data.type = 'infantry';
+    }
+  });
 });
 
