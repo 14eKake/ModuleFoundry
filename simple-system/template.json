@@ -1,19 +1,25 @@
 {
-  "actor": {
+  "Actor": {
     "infantry": {
-      "move": 6,
-      "attack": 2,
-      "defense": 1
+      "system": {
+        "move": 6,
+        "attack": 2,
+        "defense": 1
+      }
     },
     "cavalry": {
-      "move": 8,
-      "attack": 3,
-      "defense": 2
+      "system": {
+        "move": 8,
+        "attack": 3,
+        "defense": 2
+      }
     },
     "artillery": {
-      "move": 4,
-      "attack": 4,
-      "defense": 1
+      "system": {
+        "move": 4,
+        "attack": 4,
+        "defense": 1
+      }
     }
   }
 }
