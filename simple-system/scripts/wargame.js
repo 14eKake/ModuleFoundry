@@ -11,6 +11,12 @@ Hooks.once('init', () => {
     }
   }
 
+  CONFIG.Actor.typeLabels = {
+    infantry: game.i18n.localize('WARGAME.INFANTRY'),
+    cavalry: game.i18n.localize('WARGAME.CAVALRY'),
+    artillery: game.i18n.localize('WARGAME.ARTILLERY')
+  };
+
   CONFIG.Actor.documentClass = WargameActor;
 
   class WargameActorSheet extends ActorSheet {
