@@ -2,14 +2,15 @@
   "name": "simple-system",
   "title": "Simple System",
   "description": "A minimal Foundry VTT system template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [{ "name": "Your Name" }],
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
-  "scripts": ["scripts/main.js"],
+  "scripts": ["scripts/main.js", "scripts/wargame.js"],
   "styles": ["styles/main.css"],
   "languages": [
     {"lang": "en", "name": "English", "path": "lang/en.json"}
   ],
+  "actorTypes": ["infantry", "cavalry", "artillery"],
   "packs": []
 }
